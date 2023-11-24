@@ -50,7 +50,7 @@ Therapy::Therapy(int initialMinutes, QWidget *parent) :
 
     // Add a QLabel for the image
     QLabel* imageLabel = new QLabel(this);
-    QPixmap imagePixmap("C:/Users/Kashmira Dey/Documents/Calmere/calmare-therapeutics-7x4.webp");  // Replace with the path to your image file
+    QPixmap imagePixmap("image-folder");  // Replace with the path to your image file
     imageLabel->setPixmap(imagePixmap.scaled(500,500,Qt::KeepAspectRatio));
     imageLabel->setGeometry(10,10, 500, 500);
 }
